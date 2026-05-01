@@ -3,7 +3,7 @@ name = "pydantic-v2-essentials"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "marimo>=0.23.3",
+    "marimo>=0.23.4",
     "pydantic>=2.0",
 ]
 
@@ -13,3 +13,9 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+[tool.uv]
+package = false
+
+[tool.setuptools]
+packages = []
